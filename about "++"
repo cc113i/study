@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+    {
+        int a=1;
+        int b=(a++)+(a++)+(a++);
+        printf("a=%d b=%d\n",a,b);
+    }
+    {
+        int a=1;
+        int c=(++a)+(++a)+(++a);
+        printf("a=%d c=%d\n",a,c);
+    }
+    return 0;
+}
